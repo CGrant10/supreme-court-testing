@@ -1,13 +1,13 @@
 // Court Timer service worker — mirrors the budget app's update pattern.
 // On each release bump BOTH this CACHE name and version.txt (and APP_VERSION
-// in sc_timer_controls.html) together, or the update button can't reconcile.
+// in test_timer_controls.html) together, or the update button can't reconcile.
 const CACHE = "test-sc-timer-v2";
 const ASSETS = [
   "./",
   "./index.html",
-  "./sc_timer_controls.html",
-  "./sc_timer_display.html",
-  "./sc_case_overlay.html",
+  "./test_timer_controls.html",
+  "./test_timer_display.html",
+  "./test_case_overlay.html",
   "./ndseal.png"
 ];
 
